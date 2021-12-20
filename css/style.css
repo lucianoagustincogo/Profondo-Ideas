@@ -1,0 +1,311 @@
+body{
+    background-color: #0A0A0A;
+    font-family: 'Almarai', sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+
+/* TÍTULO Y NAVBAR*/
+    #headerProfondo{
+        display: flex;
+        justify-content: center;
+        width: 96%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    #imagenProfondo{
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        max-width: 600px;
+    }
+    
+    #navbarLista{
+        display: flex;
+        justify-content: center;
+        
+        text-align: justify;
+        font-size: 24px;
+    }
+
+    #navbarUl{
+
+        list-style: none;
+    }
+
+    #navbarUl li:hover{
+        color: rgb(255, 165, 0) !important;
+        transition: color .5s;
+    }
+    #navbarUl a:hover{
+        color: orange !important;
+        transition: color .5s;
+    }
+
+    #navbarUl a:link{
+        color: #3A384E;
+        text-decoration: none;
+    }
+
+    #navbarUl li{
+        color: #3A384E;
+        text-decoration: bolder;
+    }
+
+    #navbarUl a:visited{
+        color: #3A384E;
+        text-decoration: bolder;
+
+    }
+
+/* FIN TITULO Y NAVBAR */
+
+/* SECTION */
+
+section{
+    margin: 3px 30px;
+    /* max-width: max-content; */
+}
+
+section h1, section h3{
+    color: #1b1a29;
+    font-size: 26px;
+    display: flex;
+    justify-content: left;
+    max-width: max-content;
+}
+
+section h1:hover, section h3:hover{
+    color: orange;
+    transition: color .5s;
+}
+
+section h3{
+    font-size: 20px !important;
+}
+
+section p{
+    margin: 3px 10px;
+    text-align: justify;
+    color: #3A384E;
+    max-width: max-content;
+    
+}
+
+/* FIN SECTION */
+
+/* HOUSESOUND */
+
+#housesoundImagenes img{
+    height: 290px;
+    width: 250px;
+    border: #3A384E double;
+}
+
+#housesoundImagenes img:hover{
+    border: orange double;
+    transition: border .5s;
+
+}
+
+#housesoundImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* FIN HOUSESOUND */
+
+/* COLEGAS */
+
+#colegasImagenes img{
+    height: 290px;
+    width: 250px;
+    border: #3A384E double;
+}
+
+#colegasImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#colegasImagenes img:hover{
+    border: orange double;
+    transition: border .5s;
+}
+
+/* FIN COLEGAS */
+
+/* ARTISTAS */
+
+#artistasImagenes img{
+    height: 290px;
+    width: 250px;
+    border: #3A384E double;
+}
+
+#artistasImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#artistasImagenes img:hover{
+    border: rgb(255, 165, 0) double;
+    transition: border .5s;
+}
+
+/* FIN ARTISTAS */
+
+/* CONTACTO */
+
+
+#contactoImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactoContenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoContenido img{
+    max-width: 59.69px;
+    filter: grayscale(100%);
+    transition: filter .5s;
+    align-items: center;
+}
+
+.contactoContenido img:hover, .contactoContenido h5:hover{
+    filter: grayscale(0%);
+}
+
+.contactoContenido h5{
+    color:orange;
+    filter: grayscale(100%);
+    transition: filter .5s;
+    text-align: center;
+}
+
+.contactoContenido a{
+    text-decoration:none;
+    text-align: center;
+}
+.contactoContenido a:visited{
+    text-decoration:none;
+}
+
+.contactoContenido a:active{
+    text-decoration:none;
+}
+
+/* FIN CONTACTO */
+
+/* CAROUSSEL */
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  p {
+    color: #b3b3b3;
+    font-weight: 300; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+
+img, a, h1, li, h3 {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    padding: 7rem 0; }
+  
+  h2 {
+    font-size: 20px; }
+  
+  .bg-left-half {
+    position: relative; }
+    .bg-left-half:before {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      z-index: -1;
+      content: "";
+      left: 0;
+      top: 0;
+      background-color: #f8f9fa; }
+  
+  .media-29101 img {
+    margin-bottom: 20px; }
+  
+  .media-29101 h3 {
+    font-size: 18px;
+    font-weight: 900 !important; }
+    .media-29101 h3 a {
+      color: #6c757d; }
+  
+  .owl-2-style .owl-nav {
+    display: none; }
+  
+  .owl-2-style .owl-dots {
+    text-align: center;
+    position: relative;
+    bottom: -30px; }
+    .owl-2-style .owl-dots .owl-dot {
+      display: inline-block; }
+      .owl-2-style .owl-dots .owl-dot span {
+        display: inline-block;
+        width: 15px;
+        height: 3px;
+        border-radius: 0px;
+        background: #cccccc;
+        -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        margin: 3px; }
+      .owl-2-style .owl-dots .owl-dot.active span {
+        background: orange; }
+      .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+        outline: none; }
+
+        /* FIN CAROUSSEL */
+        /*BOTON IR-CIELO*/
+        .ir-arriba {
+            display:none;
+            padding:20px;
+            background:#FFA500;
+            font-size:20px;
+            color:#fff;
+            cursor:pointer;
+            position: fixed;
+            bottom: 54px;
+            right:20px;
+            border-radius: 100px;
+            z-index: 10;
+        }
+        /* FIN IR-CIELO */
+
+        /* FOOTER */
+        footer li{
+            list-style: none;
+        }
+        /* FIN FOOTER */
